@@ -4,8 +4,10 @@
 
 minutos = int(input('Minutos utilizados: '))
 if minutos < 200 :
-    print('Valor da conta:', minutos * 0.20)
-if minutos >= 200 and minutos <= 400:
-    print('Valor da conta:', minutos * 0.18)
-if minutos > 400:
-    print('Valor da conta:', minutos * 0.15)
+    preco = 0.20
+else:
+    if minutos <= 400:
+        preco = 0.18
+    else:
+        preco = 0.15
+print('Valor da Conta: R$%6.2f' % (minutos * preco))
