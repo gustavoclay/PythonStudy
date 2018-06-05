@@ -1,4 +1,4 @@
-# Classes e Objetos - Informatizar o banco TATU
+    # Classes e Objetos - Informatizar o banco TATU
 class Cliente:
     def __init__(self, nome, telefone):
         self.nome = nome
@@ -25,3 +25,12 @@ class Conta:
         for op in self.operacoes:
             print('%10s %10.2f\n' %(op[0], op[1]))
         print('%10s %10.2f\n' %('Saldo=', self.saldo))
+
+class ContaEspecial(Conta):
+    def __init__ (self, clientes, numero, saldo=0, limite=0):
+        Conta.__init__(self, clientes, numero, saldo)
+        self.limite = limite
+    def saque(self, valor):
+        if self.saldo + self.limite >= valor:
+            self.saldo -= valor
+            self.operacoes.append(['Saque', valor])
