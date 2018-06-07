@@ -6,7 +6,7 @@ while len(lista) < 10:
     lista.append(x)
 print(lista)
 temp = 0
-for n in lista:
-    if lista[n] > temp:
-        temp = lista[n]
+for item in range(1, 10):
+    if lista[item] > temp:
+        temp = lista[item]
 print('Maior ', temp)
