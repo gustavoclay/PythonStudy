@@ -5,3 +5,8 @@ while len(lista) < 10:
     x = randint(10, 100)
     lista.append(x)
 print(lista)
+temp = 0
+for n in lista:
+    if lista[n] > temp:
+        temp = lista[n]
+print('Maior ', temp)
