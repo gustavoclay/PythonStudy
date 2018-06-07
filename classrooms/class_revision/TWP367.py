@@ -2,7 +2,7 @@
 from random import randint
 print('Bem Vindo!')
 chute = 0
-sorteado = randint(1,100)
+sorteado = randint(1, 100)
 while chute != sorteado:
     g = input('Chute um numero: ')
     chute = int(g)
