@@ -1,2 +1,7 @@
 # PythonStudy
-Hora de iniciar os estudos em Python! :P :) :D
+
+![Python](python.png)
+
+[github/gustavoclay](https://github.com/gustavoclay)
+
+[linkedin/gustavoclay](https://www.linkedin.com/in/gustavoclay/)
