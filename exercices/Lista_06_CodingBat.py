@@ -1,4 +1,3 @@
-#!/usr/bin/python -tt
 # Exercícios by Nick Parlante (CodingBat)
 
 # A. dormir
