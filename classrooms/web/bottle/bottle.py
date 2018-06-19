@@ -4266,7 +4266,7 @@ jinja2_view = functools.partial(view, template_adapter=Jinja2Template)
 # Constants and Globals ########################################################
 ###############################################################################
 
-TEMPLATE_PATH = ['./', './views/','./classrooms/web']
+TEMPLATE_PATH = ['./', './views/','./classrooms/web/bottle']
 TEMPLATES = {}
 DEBUG = False
 NORUN = False  # If set, run() does nothing. Used by load_app()
